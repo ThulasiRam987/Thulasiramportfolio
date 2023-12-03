@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+            margin: 10px;
+        }
+
+        .hero-banner {
+            background: linear-gradient(to right, #17a2b8, #007bff);
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+            border-radius: 10px;
+           
+            
+        }
+
+        .hero-banner h1 {
+            font-size: 3em;
+        }
+       
+       
+
+        .hero-banner p {
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+
+
+        .about-me,
+        .skills,
+        .projects,
+        .contact {
+            padding: 50px 0;
+        }
+
+        h2 {
+            color: #17a2b8;
+            margin-bottom: 30px;
+        }
+
+        .project-card {
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            margin-bottom: 20px;
+        }
+      
+        
+
+    </style>
+</head>
+<body>
+
+<!-- Hero Banner -->
+<div class="hero-banner">
+    <div class="container">
+        <h1>J.Thulasiram</h1>
+        <p>Web Developer & APP Developer</p>
+    </div>
+</div>
+
+<!-- About Me -->
+<div class="about-me">
+    <div class="container">
+        <h2>Thulasiram</h2>
+        <p> Passionate and dedicated, I am Thulasiram, a tech enthusiast with a love for coding and problem-solving.<br>
+                       A lifelong learner, I constantly seek new challenges and opportunities to expand my knowledge in the ever-evolving tech landscape.<br>
+            With a background in Information Technology I bring a unique blend of skills and a fresh perspective to every project.<br>
+            
+
+            </p>
+    </div>
+</div>
+
+<!-- Skills -->
+<div class="skills">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Frontend</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Backend</h3>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Other</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>Responsive Design</li>
+                    <li>UI/UX Design</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Projects -->
+<div class="projects">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="row">
+            <!-- Project Card 1 -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="https://images-platform.99static.com/wX_Bn0bYxq3Dh6TAGm9wlB6waGM=/500x500/top/smart/99designs-contests-attachments/55/55499/attachment_55499609" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Event Planning Platform</h5>
+                        <p class="card-text">I Developed a web platform for event planning, allowing users to create, manage, and promote events.</p>
+                        <a href="https://en.wikipedia.org/wiki/Event_management" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Card 2 -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="https://play-lh.googleusercontent.com/CaWWkmx_61tM9x9V3DrDtzERZxI_56yfeoqU0tMNp7FeEa9M5uw0HrMS_dae39YqPQ" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Recipe Sharing App</h5>
+                        <p class="card-text"> I Built a recipe-sharing application where users can submit their favorite recipes, explore recipes shared by others, and rate/comment on them. .</p>
+                        <a href="https://en.wikipedia.org/wiki/Cookpad" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Card 3 -->
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="https://play-lh.googleusercontent.com/rWWb2gQZNBmL2wBqHX4fTHmLw0H3nlxblIW4JMcQgYdEG8SX5blGfx06-NG5va2Ke8cj" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Weather Dashboard</h5>
+                        <p class="card-text">I created a weather dashboard that provides current weather conditions and forecasts for a given location..</p>
+                        <a href="https://en.wikipedia.org/wiki/Weather" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact -->
+<div class="contact">
+    <div class="container">
+        <h2>Contact</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <p>You can also reach me via email at: <strong>thulasiramviolet@gmail.com</strong></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies (jQuery and Popper.js) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+
